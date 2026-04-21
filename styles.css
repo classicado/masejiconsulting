@@ -51,21 +51,19 @@ a {
 
 .brand {
   align-items: center;
+  background: #050807;
+  border-radius: 8px;
   display: inline-flex;
-  font-weight: 800;
-  gap: 12px;
+  height: 58px;
+  overflow: hidden;
+  padding: 7px 14px;
 }
 
-.brand-mark {
-  align-items: center;
-  background: var(--green);
-  border-radius: 8px;
-  color: var(--white);
-  display: inline-flex;
-  font-size: 0.86rem;
-  height: 38px;
-  justify-content: center;
-  width: 38px;
+.brand img {
+  display: block;
+  height: 100%;
+  object-fit: contain;
+  width: 182px;
 }
 
 .nav-links {
@@ -444,8 +442,13 @@ textarea {
     padding: 14px 16px;
   }
 
-  .brand span:last-child {
-    max-width: 140px;
+  .brand {
+    height: 52px;
+    padding: 7px 12px;
+  }
+
+  .brand img {
+    width: 154px;
   }
 
   .nav-links {
