@@ -1,14 +1,14 @@
 :root {
-  --ink: #17211d;
-  --muted: #5d6862;
-  --paper: #f8faf7;
+  --ink: #0f1c20;
+  --muted: #53646a;
+  --paper: #f6fbfc;
   --white: #ffffff;
-  --green: #0f5a4d;
-  --green-deep: #083b35;
-  --gold: #c89a3c;
-  --steel: #d8ded9;
-  --blue: #2c5f80;
-  --shadow: 0 20px 55px rgba(14, 32, 27, 0.16);
+  --green: #119eaf;
+  --green-deep: #08191d;
+  --gold: #9aca2f;
+  --steel: #d4e5e8;
+  --blue: #119eaf;
+  --shadow: 0 20px 55px rgba(7, 25, 29, 0.16);
 }
 
 * {
@@ -51,7 +51,7 @@ a {
 
 .brand {
   align-items: center;
-  background: #050807;
+  background: #e5e7e7;
   border-radius: 8px;
   display: inline-flex;
   height: 58px;
@@ -75,7 +75,7 @@ a {
 }
 
 .nav-links a {
-  color: #26342f;
+  color: #23373d;
 }
 
 .nav-links a:hover {
@@ -263,7 +263,7 @@ h3 {
 
 .government-band {
   align-items: start;
-  background: #e9efeb;
+  background: #eaf5f7;
   display: grid;
   gap: clamp(32px, 6vw, 76px);
   grid-template-columns: minmax(0, 0.95fr) minmax(320px, 0.75fr);
@@ -327,6 +327,18 @@ h3 {
 
 .contact-section p {
   color: rgba(255, 255, 255, 0.76);
+}
+
+.contact-details {
+  margin-top: 28px;
+}
+
+.contact-details p {
+  margin-bottom: 10px;
+}
+
+.contact-details strong {
+  color: var(--gold);
 }
 
 .contact-form {
